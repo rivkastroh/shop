@@ -1,0 +1,14 @@
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\DalList.deps.json
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\DalList.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\DalList.pdb
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\refint\DalList.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\DalList.pdb
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\DalList\obj\Debug\ref\DalList.dll

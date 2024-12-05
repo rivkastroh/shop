@@ -5,10 +5,12 @@ namespace Dal;
 
 static internal class DataSource
 {
-    static internal List<Customer> Customers { get; set; } = new List<Customer>();
-    static internal List<Product> Products { get; set; } = new List<Product>();
-    static internal List<Sale> Sales { get; set; } = new List<Sale>();
+    static internal List<Customer> _customers { get; set; } = new List<Customer>();
+    static internal List<Product> _products { get; set; } = new List<Product>();
+    static internal List<Sale> _sales { get; set; } = new List<Sale>();
 
+
+    //איפה משתמשים בזה?
     static internal class Config{
         internal const int _baseBarcode = 1111;
         private static int _privateConfigBarcode =_baseBarcode;

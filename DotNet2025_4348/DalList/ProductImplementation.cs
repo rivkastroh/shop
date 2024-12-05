@@ -2,32 +2,65 @@
 namespace Dal;
 using DO;
 using DalApi;
-using System.Collections.Generic;
+using System;
+using System.Reflection;
+using Tools;
 
 internal class ProductImplementation : IProduct
 {
-    int IProduct.Create(Product item)
+    public int Create(Product item)
     {
-        throw new NotImplementedException();
+        Product p = DataSource._products.FirstOrDefault(p => p.Equals(item));
+        if (p != null)
+            throw new DalEntityAlreadyExistedException("המוצר כבר קיים");
+        DataSource._products.Add(item);
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"create prouct: {item}");
+        return item.Barcode;
     }
 
-    void IProduct.Delete(int id)
+    public void Delete(int id)
     {
-        throw new NotImplementedException();
+        Product productFound = Read(id);
+        if (productFound != null)
+        {
+            MethodBase m = MethodBase.GetCurrentMethod();
+            LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"remove product whith id: {id}");
+            DataSource._products.Remove(productFound);
+        }
+        else
+            throw new DalIDNumberDoesnotExistException("לא נמצא מזהה מוצר");
     }
 
-    Product IProduct.Read(int id)
+    public Product Read(int barcode)
     {
-        throw new NotImplementedException();
+        Product product = DataSource._products.FirstOrDefault(x => x.Barcode == barcode);
+        if (product == null)
+            throw new DalIDNumberDoesnotExistException("לא נמצא מזהה מוצר");
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"read product whith barcode: {barcode}");
+        return product;
     }
 
-    List<Product> IProduct.ReadAll()
+    public Product? Read(Func<Product, bool> filter)
     {
-        throw new NotImplementedException();
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"read product white filter");
+        return DataSource._products.FirstOrDefault(p=> filter(p));
     }
 
-    void IProduct.Update(Product item)
+    public List<Product?> ReadAll(Func<Product, bool>? filter = null)
     {
-        throw new NotImplementedException();
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"readAll product");
+        if (filter == null)
+            return DataSource._products;
+        return DataSource._products.Where(x => filter(x)).ToList();
+    }
+
+    public void Update(Product item)
+    {
+        this.Delete(item.Barcode);
+        this.Create(item);
     }
 }

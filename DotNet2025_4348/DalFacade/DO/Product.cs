@@ -9,25 +9,18 @@ namespace DO
 {
 
     //מסמל מוצר בחנות
-    public record Product
+    public record Product(
+    int Barcode,
+    string Name ,
+    Categorys Category,
+    double Price,
+    int QuantityInStock
+    )
     {
-        int Barcode {  get; }
-        string Name { get; }
-        Categorys Category { get; }
-        double Price { get; }
-        int QuantityInStock { get; }
 
-        public Product()
+        public Product() : this(0,"",0,0,0)
         {
             
-        }
-        public Product(int barcode, string name, Categorys category,double price,int quantityInStock)
-        {
-            this.Barcode = barcode;
-            this.Name = name;
-            this.Category = category;
-            this.Price = price;
-            this.QuantityInStock = quantityInStock;
         }
 
     }

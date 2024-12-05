@@ -6,27 +6,17 @@ using System.Threading.Tasks;
 
 namespace DO
 {
-    public record Sale
+    public record Sale(
+    int Id,
+    int Barcode,
+    int AmountGetSale,
+    double TotalPrice,
+    bool IntendedAllCustomers,
+    DateTime StartSale,
+    DateTime FinishSale
+    )
     {
-        int Id { get; }
-        int Barcode { get; }
-        int AmountGetSale {  get; }
-        double TotalPrice { get; }
-        bool IntendedAllCustomers { get; } 
-        DateTime StartSale {  get; }
-        DateTime FinishSale { get; }
-
-        public Sale(int id,int barcode, int amountGetSale,double totalPrice,bool intendedAllCustomers,DateTime startSale,DateTime finishSale)
-        {
-            this.Id = id;
-            this.Barcode = barcode;
-            this.AmountGetSale = amountGetSale;
-            this.TotalPrice = totalPrice;
-            this.IntendedAllCustomers = intendedAllCustomers;
-            this.StartSale = startSale;
-            this.FinishSale = finishSale;
-        }
-        public Sale()
+        public Sale(): this(0, 0, 0, 0,false,new DateTime(), new DateTime())
         {
             
         }

@@ -2,32 +2,70 @@
 namespace Dal;
 using DO;
 using DalApi;
-using System.Collections.Generic;
+using System;
+using Tools;
+using System.Reflection;
 
 internal class CustomerImplementation : ICustomer
 {
     public int Create(Customer item)
     {
-        throw new NotImplementedException();
+        Customer c = DataSource._customers.FirstOrDefault(c => item.Equals(c));
+        if (c != null) {
+            throw new DalEntityAlreadyExistedException("משתמש זה כבר קיים");
+        }
+        DataSource._customers.Add(item);
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"create customer: {item}");
+        return item.Identity;
     }
 
-    public void Delete(int id)
+    public void Delete(int identity)
     {
-        throw new NotImplementedException();
+        Customer saleFound = Read(identity);
+        if (saleFound != null)
+        {
+            DataSource._customers.Remove(saleFound);
+            MethodBase m = MethodBase.GetCurrentMethod();
+            LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"remove customer whith identity: {identity}");
+        }
+        else
+            throw new DalIDNumberDoesnotExistException("התז לא קימת");
     }
 
-    public Customer Read(int id)
+    public Customer Read(int identity)
     {
-        throw new NotImplementedException();
+        Customer customer = DataSource._customers.FirstOrDefault(c => c.Identity== identity);
+        if (customer == null)
+        {
+            throw new DalIDNumberDoesnotExistException("התז לא קימת");
+        }
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"read customer whith identity: {identity}");
+        return customer;
     }
 
-    public List<Customer> ReadAll()
+    public Customer? Read(Func<Customer, bool> filter)
     {
-        throw new NotImplementedException();
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"read filter customer");
+        return DataSource._customers.FirstOrDefault(c => filter(c));
+    }
+
+    public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
+    {
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"readAll customer");
+        if (filter == null)
+          return DataSource._customers;
+        return DataSource._customers.Where(c => filter(c)).ToList();
     }
 
     public void Update(Customer item)
     {
-        throw new NotImplementedException();
+        this.Delete(item.Identity);
+        this.Create(item);
+        MethodBase m = MethodBase.GetCurrentMethod();
+        LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"update customer: {item}");
     }
 }

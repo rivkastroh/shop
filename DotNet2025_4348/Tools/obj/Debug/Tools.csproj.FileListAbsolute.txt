@@ -1,0 +1,12 @@
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\Tools.deps.json
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\Tools.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\Tools.pdb
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\Tools.sourcelink.json
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\Tools.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\refint\Tools.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\Tools.pdb
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\Tools\obj\Debug\ref\Tools.dll

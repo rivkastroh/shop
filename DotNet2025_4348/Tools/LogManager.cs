@@ -24,6 +24,7 @@ namespace Tools
             {
                 Directory.CreateDirectory(GetPathCurrentDirectory());
             }
+            Console.WriteLine(GetPathCurrentFile());
             File.AppendAllText(GetPathCurrentFile(),$"{DateTime.Now}   {nameProj}.{nameFunc}:   {text}\n");
         }
         public static void CleanLog()

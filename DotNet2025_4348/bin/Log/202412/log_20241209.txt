@@ -1,0 +1,10 @@
+09/12/2024 19:28:37   DalList.CustomerImplementation.Create:   create customer: Customer { Identity = 0, Name = , Address = , PhoneNumber =  }
+09/12/2024 19:28:37   DalList.ProductImplementation.Create:   create prouct: Product { Barcode = 0, Name = , Category = emona, Price = 0, QuantityInStock = 0 }
+09/12/2024 19:28:37   DalList.SaleImplemention.Create:   create sale: Sale { Id = 0, Barcode = 0, AmountGetSale = 0, TotalPrice = 0, IntendedAllCustomers = False, StartSale = 01/01/0001 00:00:00, FinishSale = 01/01/0001 00:00:00 }
+09/12/2024 21:02:54   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 0, Name = , Address = , PhoneNumber =  }
+09/12/2024 21:02:54   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 0, Name = , Category = emona, Price = 0, QuantityInStock = 0 }
+09/12/2024 21:02:54   Dal.SaleImplemention.Create:   create sale: Sale { Id = 0, Barcode = 0, AmountGetSale = 0, TotalPrice = 0, IntendedAllCustomers = False, StartSale = 01/01/0001 00:00:00, FinishSale = 01/01/0001 00:00:00 }
+09/12/2024 21:03:07   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 0, Name = , Address = , PhoneNumber =  }
+09/12/2024 21:03:07   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 0, Name = , Category = emona, Price = 0, QuantityInStock = 0 }
+09/12/2024 21:03:07   Dal.SaleImplemention.Create:   create sale: Sale { Id = 0, Barcode = 0, AmountGetSale = 0, TotalPrice = 0, IntendedAllCustomers = False, StartSale = 01/01/0001 00:00:00, FinishSale = 01/01/0001 00:00:00 }
+09/12/2024 21:03:28   Dal.SaleImplemention.Read:   read sale with id: 0

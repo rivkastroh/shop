@@ -3,7 +3,7 @@ using DO;
 
 namespace Dal;
 
-static internal class DataSource
+internal static class DataSource
 {
     static internal List<Customer> _customers { get; set; } = new List<Customer>();
     static internal List<Product> _products { get; set; } = new List<Product>();

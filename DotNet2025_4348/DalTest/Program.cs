@@ -1,8 +1,7 @@
 ﻿using DO;
+using Dal;
 using DalApi;
 using DalTest;
-using Dal;
-using DalList;
 using System.Data.Common;
 using Tools;
 using System.Reflection;
@@ -197,14 +196,12 @@ public class Program
         LogManager.WriteLog(m.DeclaringType.FullName, m.Name, text);
     }
 
-    private static readonly IDal s_dal;// = new DalList();
-    //DataSource d = new DataSource();
-
+    private static readonly IDal s_dal = new DalList();
     static void Main(string[] args)
     {
         try
         {
-            //Initialization.Initialize(s_dal);
+            Initialization.Initialize(s_dal);
             ConsoleNav();
         }
         catch (Exception ex)

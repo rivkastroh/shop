@@ -196,12 +196,12 @@ public class Program
         LogManager.WriteLog(m.DeclaringType.FullName, m.Name, text);
     }
 
-    private static readonly IDal s_dal = new DalList();
+    private static readonly IDal s_dal = DalApi.Factory.Get;
     static void Main(string[] args)
     {
         try
         {
-            Initialization.Initialize(s_dal);
+             Initialization.Initialize();
             ConsoleNav();
         }
         catch (Exception ex)

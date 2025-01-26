@@ -19,9 +19,9 @@ public static class Initialization
     {
         s_dal.Sale.Create(new Sale());
     }
-    public static void Initialize(IDal dal)
+    public static void Initialize()
     {
-        s_dal = dal;
+        s_dal = DalApi.Factory.Get;
         createCustomer();
         createProduct();
         createSale();

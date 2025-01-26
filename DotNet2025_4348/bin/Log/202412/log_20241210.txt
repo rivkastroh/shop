@@ -1,0 +1,3 @@
+10/12/2024 18:21:50   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 0, Name = , Address = , PhoneNumber =  }
+10/12/2024 18:21:50   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 0, Name = , Category = emona, Price = 0, QuantityInStock = 0 }
+10/12/2024 18:21:50   Dal.SaleImplemention.Create:   create sale: Sale { Id = 0, Barcode = 0, AmountGetSale = 0, TotalPrice = 0, IntendedAllCustomers = False, StartSale = 01/01/0001 00:00:00, FinishSale = 01/01/0001 00:00:00 }

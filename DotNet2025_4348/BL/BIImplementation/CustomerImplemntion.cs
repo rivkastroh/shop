@@ -5,7 +5,7 @@ namespace BO
     internal class CustomerImplemntion : ICustomer
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
-        public void addCustomer(Customer customer)
+        public void addCustomer(BO.Customer customer)
         {
             DO.Customer DOCustomer = Tools.toDOCustomer(customer);
             _dal.Customer.Create(DOCustomer);

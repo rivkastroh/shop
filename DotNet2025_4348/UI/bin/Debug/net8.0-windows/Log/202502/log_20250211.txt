@@ -1,0 +1,81 @@
+11/02/2025 15:06:26   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:06:36   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:06:39   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:06:58   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:10:27   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:10:41   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:10:41   Dal.ProductImplementation.Delete:   remove product whith id: 123456
+11/02/2025 15:10:41   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 123456, Name = מה שבטוח אני לא מחליטה- מה שבטוח הורדתי שליטה, Category = havatHashem, Price = 19.99, QuantityInStock = 100 }
+11/02/2025 15:10:43   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:12:33   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 123456, Name = כןכ כן, Category = tfila, Price = 23, QuantityInStock = 1 }
+11/02/2025 15:12:37   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:30:21   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:30:32   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:31:06   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:31:06   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:31:06   Dal.ProductImplementation.Delete:   remove product whith id: 123456
+11/02/2025 15:31:06   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 123456, Name = מה שבטוח אני לא מחליטה- מה שבטוח הורדתי שליטה, Category = emona, Price = 19.99, QuantityInStock = 150 }
+11/02/2025 15:31:20   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:32:59   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:33:14   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 15:33:31   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 15:33:31   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:33:31   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 15:33:56   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 15:33:56   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 15:33:56   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 19:30:00   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 19:30:00   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 19:30:00   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:13:17   Dal.SaleImplemention.Create:   create sale: Sale { Id = 4, Barcode = 123456, AmountGetSale = 3, TotalPrice = 23, IntendedAllCustomers = True, StartSale = 11/02/2025 20:12:52, FinishSale = 14/02/2025 20:12:52 }
+11/02/2025 20:13:22   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 20:13:22   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:13:22   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:13:22   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:15:49   Dal.SaleImplemention.Create:   create sale: Sale { Id = 12, Barcode = 123456, AmountGetSale = 1, TotalPrice = 3, IntendedAllCustomers = True, StartSale = 11/02/2025 20:15:25, FinishSale = 11/02/2025 20:15:25 }
+11/02/2025 20:15:52   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 20:15:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:15:52   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:15:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:16:40   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 20:17:18   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 899087, Name = כל מה שעושה ד' לטובה, Category = emona, Price = 23, QuantityInStock = 0 }
+11/02/2025 20:17:25   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 20:17:53   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:17:53   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:17:53   Dal.ProductImplementation.Delete:   remove product whith id: 123456
+11/02/2025 20:17:53   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 123456, Name = מה שבטוח אני לא מחליטה- מה שבטוח הורדתי שליטה, Category = emona, Price = 19.99, QuantityInStock = 108 }
+11/02/2025 20:17:59   Dal.ProductImplementation.ReadAll:   readAll product
+11/02/2025 20:40:37   Dal.SaleImplemention.Create:   create sale: Sale { Id = 5, Barcode = 1234, AmountGetSale = 2, TotalPrice = 5, IntendedAllCustomers = True, StartSale = 11/02/2025 20:40:13, FinishSale = 14/02/2025 20:40:13 }
+11/02/2025 20:40:41   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 20:40:41   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:40:41   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:45:02   Dal.SaleImplemention.Create:   create sale: Sale { Id = 3, Barcode = 123456, AmountGetSale = 4, TotalPrice = 3, IntendedAllCustomers = True, StartSale = 11/02/2025 20:44:40, FinishSale = 14/02/2025 20:44:40 }
+11/02/2025 20:45:08   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 20:45:08   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:45:08   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:45:08   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:45:35   Dal.SaleImplemention.Read:   read sale with id: 2
+11/02/2025 20:45:35   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:45:59   Dal.SaleImplemention.Read:   read sale with id: 1
+11/02/2025 20:45:59   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:46:07   Dal.SaleImplemention.Read:   read sale with id: 1
+11/02/2025 20:46:07   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:46:29   Dal.SaleImplemention.Read:   read sale with id: 1
+11/02/2025 20:46:29   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:46:29   Dal.SaleImplemention.Read:   read sale with id: 1
+11/02/2025 20:46:29   Dal.SaleImplemention.Delete:   delete sale with id: 1
+11/02/2025 20:49:33   Dal.SaleImplemention.Create:   create sale: Sale { Id = 3, Barcode = 123456, AmountGetSale = 2, TotalPrice = 2, IntendedAllCustomers = True, StartSale = 11/02/2025 20:49:05, FinishSale = 21/02/2025 20:49:05 }
+11/02/2025 20:49:39   Dal.SaleImplemention.Read:   read sale with id: 2
+11/02/2025 20:49:39   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:49:48   Dal.SaleImplemention.Read:   read sale with id: 2
+11/02/2025 20:49:48   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:49:56   Dal.SaleImplemention.Read:   read sale with id: 2
+11/02/2025 20:49:56   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+11/02/2025 20:50:03   Dal.SaleImplemention.Update:   update sale: Sale { Id = 2, Barcode = 654321, AmountGetSale = 6, TotalPrice = 49.99, IntendedAllCustomers = False, StartSale = 11/02/2025 00:00:00, FinishSale = 25/02/2025 00:00:00 }
+11/02/2025 20:50:03   Dal.SaleImplemention.Read:   read sale with id: 2
+11/02/2025 20:50:03   Dal.SaleImplemention.Delete:   delete sale with id: 2
+11/02/2025 20:50:03   Dal.SaleImplemention.Create:   create sale: Sale { Id = 2, Barcode = 654321, AmountGetSale = 6, TotalPrice = 49.99, IntendedAllCustomers = False, StartSale = 11/02/2025 00:00:00, FinishSale = 25/02/2025 00:00:00 }
+11/02/2025 20:50:05   Dal.SaleImplemention.ReadAll:   readAll sale
+11/02/2025 20:50:05   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:50:05   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+11/02/2025 20:50:05   Dal.ProductImplementation.Read:   read product whith barcode: 654321

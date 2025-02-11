@@ -1,11 +1,11 @@
-﻿using BO;
-
-namespace BIApi
+﻿namespace BIApi
 {
     public interface ISale
     {
-        public void addSale(Sale sale);
+        public void addSale(BO.Sale sale);
         public void removeSale(int id);
-        public void updateSale(Sale sale);
+        public void updateSale(BO.Sale sale);
+        public List<BO.Sale> getAllSale();
+        public BO.Sale getSale(int id);
     }
 }

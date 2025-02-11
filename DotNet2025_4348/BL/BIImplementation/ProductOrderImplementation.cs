@@ -1,13 +1,14 @@
 ﻿using BIApi;
+using BO;
 
 namespace BIImplementation
 {
     internal class ProductOrderImplementation : IProductOrder
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
-        public void addAmount(int amount)
+        public void addAmount(int amount,ProductOrder productOrder)
         {
-            throw new NotImplementedException();
+            productOrder.Amount += amount;
         }
     }
 }

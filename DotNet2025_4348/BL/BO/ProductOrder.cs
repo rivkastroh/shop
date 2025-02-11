@@ -14,5 +14,9 @@
             this.Price=price;
             this.SaleList = Tools.salesProduct(this.Barcode);
         }
+        public override string ToString()
+        {
+            return $"product in order:  barcode: {Barcode}  amount: {Amount}  price: {Price}  sale list:{Tools.toStringObject(SaleList)}";
+        }
     }
 }

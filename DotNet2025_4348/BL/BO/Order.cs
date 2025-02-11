@@ -3,11 +3,15 @@
     public class Order
     {
         public bool IsClub { get; init; }
-        public List<Order> Orders { get; init; }
+        public List<ProductOrder> Products { get; init; }
         public Order(bool isClub)
         {
             this.IsClub = isClub;
-            Orders = new List<Order>();
+            Products = new List<ProductOrder>();
+        }
+        public override string ToString()
+        {
+            return $"order-  club? {IsClub}  products: {Tools.toStringObject(Products)}";
         }
     }
 }

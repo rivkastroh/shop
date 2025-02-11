@@ -1,0 +1,7 @@
+10/02/2025 16:43:12   Dal.ProductImplementation.ReadAll:   readAll product
+10/02/2025 16:45:15   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+10/02/2025 16:45:15   Dal.ProductImplementation.Delete:   remove product whith id: 123456
+10/02/2025 16:45:18   Dal.ProductImplementation.ReadAll:   readAll product
+10/02/2025 16:47:58   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+10/02/2025 16:47:58   Dal.ProductImplementation.Delete:   remove product whith id: 123456
+10/02/2025 16:48:01   Dal.ProductImplementation.ReadAll:   readAll product

@@ -8,29 +8,52 @@
             //יש לממש
             return null;
         }
-        public static DO.Product toDOProduct(Product product)
+        public static string toStringObject<T>(IEnumerable<T> objs)
         {
-            //יש לממש
-            return null;
+            string s = "";
+            foreach (var obj in objs)
+            {
+                s += obj.ToString();
+                s += ", ";
+            }
+            s.Substring(0, s.Length - 2);
+            return s;
         }
-        public static BO.Product toBOProduct(DO.Product product)
+        public static DO.Product toDOProduct(BO.Product productBO)
         {
-            //יש לממש
-            return null;
+            DO.Product p = new DO.Product()
+            { Barcode = productBO.Barcode, Category = (DO.Categorys)productBO.Category, Name = productBO.Name, Price = productBO.Price, QuantityInStock = productBO.QuantityInStock };
+            return p;
         }
-        public static DO.Sale toDOSale(Sale sale){
-            //יש לממש
-            return null;
-        }
-        public static BO.Sale toBOSale(DO.Sale sale)
+        public static BO.Product toBOProduct(DO.Product productDO)
         {
-            //יש לממש
-            return null;
+            BO.Product p = new BO.Product()
+            { Name = productDO.Name, Barcode = productDO.Barcode, Category = (BO.Categorys)productDO.Category, Price = productDO.Price, QuantityInStock = productDO.QuantityInStock };
+            return p;
         }
-        public static DO.Customer toDOCustomer(Customer customer)
+        public static DO.Sale toDOSale(BO.Sale saleBO){
+            DO.Sale s = new DO.Sale()
+            { Id = saleBO.Id, Barcode = saleBO.Barcode, AmountGetSale = saleBO.AmountGetSale, IntendedAllCustomers = saleBO.IntendedAllCustomers, TotalPrice = saleBO.TotalPrice, StartSale = saleBO.StartSale, FinishSale = saleBO.FinishSale };
+            return s;
+        }
+        public static BO.Sale toBOSale(DO.Sale saleDO)
         {
-            //יש לממש
-            return null;
+            double price = _dal.Product.Read(saleDO.Barcode).Price;
+            BO.Sale s = new BO.Sale()
+            { discount=price-saleDO.TotalPrice,Id = saleDO.Id, Barcode = saleDO.Barcode, StartSale = saleDO.StartSale, FinishSale = saleDO.FinishSale, TotalPrice = saleDO.TotalPrice, AmountGetSale = saleDO.AmountGetSale, IntendedAllCustomers = saleDO.IntendedAllCustomers };
+            return s;
+        }
+        public static DO.Customer toDOCustomer(BO.Customer customerBO)
+        {
+            DO.Customer c = new DO.Customer()
+            { Identity = customerBO.Identity, Name = customerBO.Name, Address = customerBO.Address, PhoneNumber = customerBO.PhoneNumber };
+            return c;
+        }
+        public static BO.Customer toBOCustomer(DO.Customer customerDO)
+        {
+            BO.Customer c = new BO.Customer()
+            { Identity = customerDO.Identity ,Name=customerDO.Name,Address=customerDO.Address,PhoneNumber=customerDO.PhoneNumber};
+            return c;
         }
         public static double priceProduct(ProductOrder productOrder, bool isClub)
         {//מחזירה מחיר כולל למוצר בהזמנה

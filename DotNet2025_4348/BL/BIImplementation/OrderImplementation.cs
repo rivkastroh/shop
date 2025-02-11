@@ -6,14 +6,19 @@ namespace BIImplementation
     internal class OrderImplementation : IOrder
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
-        public void addProduct(Order order, ProductOrder productOrder)
+        public void addProduct(BO.Order order, ProductOrder productOrder)
         {
-            throw new NotImplementedException();
+            order.Products.Add(productOrder);
         }
 
         public double orderTermination(Order order)
         {
-            throw new NotImplementedException();
+            double sum = 0;
+            foreach (ProductOrder p in order.Products)
+            {
+                sum += BO.Tools.priceProduct(p,order.IsClub);
+            }
+            return sum;
         }
     }
 }

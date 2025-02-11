@@ -1,13 +1,11 @@
-﻿using BL.BIApi;
-
-namespace BIApi
+﻿namespace BIApi
 {
     public static class Factory
     {
+        private static IBI bi = new BIImplementation.BI();
         public static IBI Get()
         {
-            //צריך לממש
-            return null;
+            return bi;
         }
     }
 }

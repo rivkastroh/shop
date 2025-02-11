@@ -1,10 +1,8 @@
-﻿using BO;
-
-namespace BIApi
+﻿namespace BIApi
 {
     public interface IGiveObjects
     {
-        public List<Product> GetProducts();
+        public List<BO.Product> GetProducts();
         public List<BO.Product> GetMissingProduct();
     }
 }

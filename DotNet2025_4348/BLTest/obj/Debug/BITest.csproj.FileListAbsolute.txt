@@ -1,0 +1,17 @@
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\BITest.exe
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\BITest.deps.json
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\BITest.runtimeconfig.json
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\BITest.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\bin\BITest.pdb
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.csproj.AssemblyReference.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.AssemblyInfoInputs.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.AssemblyInfo.cs
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.csproj.CoreCompileInputs.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.sourcelink.json
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.csproj.Up2Date
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\refint\BITest.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.pdb
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\BITest.genruntimeconfig.cache
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\BLTest\obj\Debug\ref\BITest.dll

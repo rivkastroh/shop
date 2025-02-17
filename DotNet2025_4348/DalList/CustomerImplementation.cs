@@ -10,9 +10,9 @@ internal class CustomerImplementation : ICustomer
 {
     public int Create(Customer item)
     {
-        Customer c = DataSource._customers.FirstOrDefault(c => item.Equals(c));
+        Customer c = DataSource._customers.FirstOrDefault(c => item.Identity==c.Identity);
         if (c != null) {
-            throw new DalEntityAlreadyExistedException("משתמש זה כבר קיים");
+            throw new DalEntityAlreadyExistedException("תז משתמש זה כבר קיים");
         }
         DataSource._customers.Add(item);
         MethodBase m = MethodBase.GetCurrentMethod();

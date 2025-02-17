@@ -11,7 +11,7 @@ internal class SaleImplemention : ISale
     {
         Sale s= DataSource._sales.FirstOrDefault(s => s.Id == item.Id);
         if (s != null)
-          throw new DalEntityAlreadyExistedException("המבצע כבר קיים");
+          throw new DalEntityAlreadyExistedException("מזהה המבצע כבר קיים");
         DataSource._sales.Add(item);
         MethodBase m = MethodBase.GetCurrentMethod();
         LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"create sale: {item}");

@@ -10,9 +10,9 @@ internal class ProductImplementation : IProduct
 {
     public int Create(Product item)
     {
-        Product p = DataSource._products.FirstOrDefault(p => p.Equals(item));
+        Product p = DataSource._products.FirstOrDefault(p => p.Barcode==item.Barcode);
         if (p != null)
-            throw new DalEntityAlreadyExistedException("המוצר כבר קיים");
+            throw new DalEntityAlreadyExistedException("ברקוד המוצר כבר קיים");
         DataSource._products.Add(item);
         MethodBase m = MethodBase.GetCurrentMethod();
         LogManager.WriteLog(m.DeclaringType.FullName, m.Name, $"create prouct: {item}");

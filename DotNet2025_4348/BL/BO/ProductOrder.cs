@@ -6,12 +6,11 @@
         public int Amount { get; set; }
         public double Price { get; init; }
         public List<Sale> SaleList { get; init; }
-        public ProductOrder(int barcode,int price)
+        public ProductOrder(int barcode)
         {
             this.Barcode = barcode;
-            this.Price = price;
+            this.Price = Tools.priceProduct(barcode); ;
             this.Amount = 1;
-            this.Price=price;
             this.SaleList = Tools.salesProduct(this.Barcode);
         }
         public override string ToString()

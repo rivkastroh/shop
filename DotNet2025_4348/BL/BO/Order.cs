@@ -2,16 +2,16 @@
 {
     public class Order
     {
-        public bool IsClub { get; init; }
+        public BO.Customer Customer { get; init; }
         public List<ProductOrder> Products { get; init; }
-        public Order(bool isClub)
+        public Order(BO.Customer customer)
         {
-            this.IsClub = isClub;
+            this.Customer = customer;
             Products = new List<ProductOrder>();
         }
         public override string ToString()
         {
-            return $"order-  club? {IsClub}  products: {Tools.toStringObject(Products)}";
+            return $"order-  customer: {Customer}  products: {Tools.toStringObject(Products)}";
         }
     }
 }

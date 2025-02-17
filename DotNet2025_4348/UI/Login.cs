@@ -40,5 +40,12 @@ namespace UI
             this.Controls.Add(this.enterPass);
             this.Controls.Add(this.textBoxPass);
         }
+
+        private void cashierLogin_Click(object sender, EventArgs e)
+        {
+            CashierInterface cashierInterface = new CashierInterface(this);
+            cashierInterface.Show();
+            this.Hide();
+        }
     }
 }

@@ -3,5 +3,7 @@ public enum Categorys
 {
     emona,
     tfila,
-    havatHashem
+    havatHashem,
+    nisayon,
+    havatYisrahel
 }

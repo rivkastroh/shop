@@ -46,12 +46,14 @@
             // 
             // cashierLogin
             // 
+            cashierLogin.CausesValidation = false;
             cashierLogin.Location = new Point(231, 132);
             cashierLogin.Name = "cashierLogin";
             cashierLogin.Size = new Size(75, 23);
             cashierLogin.TabIndex = 1;
             cashierLogin.Text = "קופאי";
             cashierLogin.UseVisualStyleBackColor = true;
+            cashierLogin.Click += cashierLogin_Click;
             // 
             // enterPass
             // 
@@ -68,21 +70,18 @@
             textBoxPass.Name = "textBoxPass";
             textBoxPass.Size = new Size(100, 23);
             textBoxPass.TabIndex = 3;
-            textBoxPass.KeyPress += new KeyPressEventHandler(textBoxPass_KeyPress);
+            textBoxPass.KeyPress += textBoxPass_KeyPress;
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            //Controls.Add(textBoxPass);
-            //Controls.Add(enterPass);
             Controls.Add(cashierLogin);
             Controls.Add(manegerLogin);
             Name = "Login";
             Text = "Login";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

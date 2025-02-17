@@ -31,3 +31,8 @@ C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348
 C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\UI.pdb
 C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
 C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\ref\UI.dll
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\UI.CashierInterface.resources
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\UI.Acount.resources
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\UI.FinishAcount.resources
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\UI.Properties.Resources.resources
+C:\Users\user2\Documents\תכנות\c#\DotNet2025_4348\c-project\DotNet2025_4348\UI\obj\Debug\net8.0-windows\UI.NameProd.resources

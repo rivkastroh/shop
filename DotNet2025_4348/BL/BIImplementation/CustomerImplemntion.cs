@@ -11,6 +11,16 @@ namespace BO
             _dal.Customer.Create(DOCustomer);
         }
 
+        public Customer GetCustomer(int id)
+        {
+            return BO.Tools.toBOCustomer(_dal.Customer.Read(id));
+        }
+
+        public List<Customer> GetCustomers()
+        {
+            return _dal.Customer.ReadAll().Select(cust => BO.Tools.toBOCustomer(cust)).ToList();
+        }
+
         public void removeCustomer(int identity)
         {
             _dal.Customer.Delete(identity);

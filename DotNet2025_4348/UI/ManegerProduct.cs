@@ -61,8 +61,6 @@ namespace UI
                     MessageBox.Show("Error: " + ex.Message);
                 }
             };
-
-
             Controls.Add(barcodeLabel);
             Controls.Add(barcodeInput);
             Controls.Add(nameLabel);
@@ -107,7 +105,6 @@ namespace UI
             };
 
         }
-
         private void updateProduct_Click(object sender, EventArgs e)
         {
             Button submitButton = new Button { Text = "עדכן", Location = new Point(10, 320) };
@@ -159,8 +156,6 @@ namespace UI
                     MessageBox.Show("Error: " + ex.Message);
                 }
             };
-
-
             Controls.Add(barcodeLabel);
             Controls.Add(barcodeInput);
             Controls.Add(nameLabel);

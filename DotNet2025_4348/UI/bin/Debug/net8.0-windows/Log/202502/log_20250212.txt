@@ -1,0 +1,21 @@
+12/02/2025 13:09:16   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:09:43   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:09:54   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+12/02/2025 13:10:27   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+12/02/2025 13:11:25   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+12/02/2025 13:11:25   Dal.ProductImplementation.Delete:   remove product whith id: 123456
+12/02/2025 13:11:25   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 123456, Name = מה שבטוח אני לא מחליטה- מה שבטוח הורדתי שליטה, Category = emona, Price = 19.99, QuantityInStock = 100 }
+12/02/2025 13:11:59   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:12:23   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 2345, Name = גרסטכון, Category = tfila, Price = 8, QuantityInStock = 0 }
+12/02/2025 13:12:25   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:12:34   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:12:54   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:13:06   Dal.ProductImplementation.Read:   read product whith barcode: 2345
+12/02/2025 13:13:06   Dal.ProductImplementation.Read:   read product whith barcode: 2345
+12/02/2025 13:13:06   Dal.ProductImplementation.Delete:   remove product whith id: 2345
+12/02/2025 13:13:06   Dal.ProductImplementation.Create:   create prouct: Product { Barcode = 2345, Name = גרסטכון, Category = tfila, Price = 8, QuantityInStock = 6 }
+12/02/2025 13:13:08   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:13:14   Dal.ProductImplementation.ReadAll:   readAll product
+12/02/2025 13:13:34   Dal.SaleImplemention.ReadAll:   readAll sale
+12/02/2025 13:13:34   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+12/02/2025 13:13:34   Dal.ProductImplementation.Read:   read product whith barcode: 654321

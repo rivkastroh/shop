@@ -1,6 +1,5 @@
 ﻿namespace DO
 {
-
     public record Customer(
         int Identity,
         string Name,
@@ -8,9 +7,9 @@
         string PhoneNumber
     )
     {
-        public Customer() : this(0,"","","")
+        public Customer() : this(0, "", "", "")
         {
-            
+
         }
     }
 }

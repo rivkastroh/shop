@@ -1,0 +1,255 @@
+17/02/2025 07:48:27   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 07:48:56   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 07:49:33   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 07:49:56   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 07:49:56   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 07:49:56   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 07:50:38   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 07:50:43   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 07:50:43   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 07:50:43   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 08:11:03   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 08:11:15   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 08:11:15   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 08:11:15   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 08:11:20   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 08:11:20   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 08:11:20   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 08:12:52   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 08:15:27   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 17:46:12   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 327824348, Name = rivka, Address = fff, PhoneNumber = 12345 }
+17/02/2025 17:46:15   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 17:46:37   Dal.CustomerImplementation.Read:   read customer whith identity: 327824348
+17/02/2025 17:46:37   Dal.CustomerImplementation.Delete:   remove customer whith identity: 327824348
+17/02/2025 17:46:39   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 17:52:04   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 123, Name = asd, Address = dfg, PhoneNumber = 567 }
+17/02/2025 17:52:10   Dal.CustomerImplementation.Read:   read customer whith identity: 123
+17/02/2025 17:52:14   Dal.CustomerImplementation.Read:   read customer whith identity: 123
+17/02/2025 17:52:14   Dal.CustomerImplementation.Read:   read customer whith identity: 123
+17/02/2025 17:52:14   Dal.CustomerImplementation.Delete:   remove customer whith identity: 123
+17/02/2025 17:52:14   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 123, Name = asd, Address = dfg, PhoneNumber = 567 }
+17/02/2025 17:52:14   Dal.CustomerImplementation.Update:   update customer: Customer { Identity = 123, Name = asd, Address = dfg, PhoneNumber = 567 }
+17/02/2025 18:18:04   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 327824348, Name = rivka, Address = as, PhoneNumber = 5555 }
+17/02/2025 18:18:26   Dal.CustomerImplementation.Read:   read customer whith identity: 327824348
+17/02/2025 18:18:26   Dal.CustomerImplementation.Delete:   remove customer whith identity: 327824348
+17/02/2025 18:18:53   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 11, Name = , Address = , PhoneNumber =  }
+17/02/2025 18:19:01   Dal.CustomerImplementation.Read:   read customer whith identity: 11
+17/02/2025 18:19:03   Dal.CustomerImplementation.Read:   read customer whith identity: 11
+17/02/2025 18:19:04   Dal.CustomerImplementation.Read:   read customer whith identity: 11
+17/02/2025 18:19:04   Dal.CustomerImplementation.Delete:   remove customer whith identity: 11
+17/02/2025 18:19:04   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 11, Name = , Address = , PhoneNumber =  }
+17/02/2025 18:19:04   Dal.CustomerImplementation.Update:   update customer: Customer { Identity = 11, Name = , Address = , PhoneNumber =  }
+17/02/2025 18:20:05   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 327824348, Name = r, Address = hkj, PhoneNumber = 4567 }
+17/02/2025 18:20:25   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 1234, Name = ty, Address = hl, PhoneNumber = 458 }
+17/02/2025 18:22:19   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 327824348, Name = y, Address = fhk, PhoneNumber = 75634 }
+17/02/2025 18:22:56   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 8, Name = , Address = , PhoneNumber =  }
+17/02/2025 18:23:14   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 18:23:21   Dal.CustomerImplementation.Read:   read customer whith identity: 8
+17/02/2025 18:23:28   Dal.CustomerImplementation.Read:   read customer whith identity: 327824348
+17/02/2025 18:23:35   Dal.CustomerImplementation.Read:   read customer whith identity: 327824348
+17/02/2025 18:23:35   Dal.CustomerImplementation.Delete:   remove customer whith identity: 327824348
+17/02/2025 18:23:35   Dal.CustomerImplementation.Create:   create customer: Customer { Identity = 327824348, Name = yt, Address = fhk, PhoneNumber = 75634 }
+17/02/2025 18:23:35   Dal.CustomerImplementation.Update:   update customer: Customer { Identity = 327824348, Name = yt, Address = fhk, PhoneNumber = 75634 }
+17/02/2025 18:23:37   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 18:23:55   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 18:38:41   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 19:58:22   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 19:58:35   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 19:58:35   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 19:58:36   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 19:58:36   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 19:58:42   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 19:58:42   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 19:58:42   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 19:58:48   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 19:58:48   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 19:58:48   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 19:58:53   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 19:58:53   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 19:58:53   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:00:28   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:00:28   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:00:28   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:00:28   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:00:33   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:01:49   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:01:49   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:01:49   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:01:49   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:01:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:07:33   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:07:33   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:07:33   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:07:33   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:07:36   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 20:07:47   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:07:47   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:07:47   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:07:50   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:07:50   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:09:37   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:09:37   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:09:37   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:09:37   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:09:44   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 20:09:54   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:09:54   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:09:54   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:10:03   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:10:03   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:10:03   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:10:07   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:10:07   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:10:07   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:10:30   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:10:30   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:10:30   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:10:36   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:10:36   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:10:36   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:11:01   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:11:01   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:11:01   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 20:11:40   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 20:16:04   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 20:16:19   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 20:16:19   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:16:19   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 20:16:27   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 20:16:27   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:16:27   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 20:16:31   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 20:16:31   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 20:19:30   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 20:24:32   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 20:24:43   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:24:43   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:24:43   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:24:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:24:52   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:24:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:24:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:25:06   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 20:25:06   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:25:06   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 20:25:11   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:25:11   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:25:11   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 20:45:48   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:45:48   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:45:48   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:45:48   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:45:51   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 20:46:02   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:46:02   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:46:02   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:46:13   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:46:13   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:46:13   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:46:17   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:46:17   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:46:17   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:46:17   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:46:17   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:46:17   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:53:18   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 20:53:31   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:53:31   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:53:31   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:53:31   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:53:35   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:53:35   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:53:35   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:53:44   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 20:53:44   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:53:44   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 20:53:51   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:53:51   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 20:53:51   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 20:54:02   Dal.ProductImplementation.Read:   read product whith barcode: 234567
+17/02/2025 21:11:37   Dal.ProductImplementation.ReadAll:   readAll product
+17/02/2025 21:11:49   Dal.ProductImplementation.Read:   read product whith barcode: 150429
+17/02/2025 21:11:49   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:11:53   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 21:11:53   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:11:53   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 21:11:58   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 21:11:58   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:11:58   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 21:12:04   Dal.ProductImplementation.Read:   read product whith barcode: 456789
+17/02/2025 21:12:04   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:12:04   Dal.ProductImplementation.Read:   read product whith barcode: 456789
+17/02/2025 21:12:13   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 21:12:13   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:12:13   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 21:12:30   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:12:30   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:12:30   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:12:30   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:12:49   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 21:12:49   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:12:49   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 21:12:56   Dal.ProductImplementation.Read:   read product whith barcode: 890123
+17/02/2025 21:12:56   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:12:56   Dal.ProductImplementation.Read:   read product whith barcode: 890123
+17/02/2025 21:13:07   Dal.ProductImplementation.Read:   read product whith barcode: 234568
+17/02/2025 21:13:07   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:13:07   Dal.ProductImplementation.Read:   read product whith barcode: 234568
+17/02/2025 21:13:13   Dal.ProductImplementation.Read:   read product whith barcode: 456780
+17/02/2025 21:13:13   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:13:13   Dal.ProductImplementation.Read:   read product whith barcode: 456780
+17/02/2025 21:13:19   Dal.ProductImplementation.Read:   read product whith barcode: 123457
+17/02/2025 21:13:19   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:13:19   Dal.ProductImplementation.Read:   read product whith barcode: 123457
+17/02/2025 21:13:25   Dal.ProductImplementation.Read:   read product whith barcode: 901234
+17/02/2025 21:13:25   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:13:25   Dal.ProductImplementation.Read:   read product whith barcode: 901234
+17/02/2025 21:13:34   Dal.ProductImplementation.Read:   read product whith barcode: 345679
+17/02/2025 21:13:34   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:13:34   Dal.ProductImplementation.Read:   read product whith barcode: 345679
+17/02/2025 21:13:46   Dal.ProductImplementation.Read:   read product whith barcode: 789012
+17/02/2025 21:13:46   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:13:46   Dal.ProductImplementation.Read:   read product whith barcode: 789012
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 150429
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 456789
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 890123
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 234568
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 456780
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 123457
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 901234
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 345679
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 789012
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 150429
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 654321
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 345678
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 789012
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 456789
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 567890
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 678901
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 890123
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 123457
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 901234
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 234568
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 456780
+17/02/2025 21:13:52   Dal.ProductImplementation.Read:   read product whith barcode: 345679
+17/02/2025 21:17:49   Dal.CustomerImplementation.ReadAll:   readAll customer
+17/02/2025 21:18:00   Dal.CustomerImplementation.Read:   read customer whith identity: 123456789
+17/02/2025 21:18:08   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:18:08   Dal.SaleImplemention.ReadAll:   readAll sale
+17/02/2025 21:18:08   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:18:08   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:18:12   Dal.ProductImplementation.Read:   read product whith barcode: 123456
+17/02/2025 21:18:12   Dal.ProductImplementation.Read:   read product whith barcode: 123456

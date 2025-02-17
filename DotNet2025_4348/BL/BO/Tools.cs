@@ -8,6 +8,10 @@
             //יש לממש
             return null;
         }
+        public static double priceProduct(int barcode)
+        {
+            return _dal.Product.Read(barcode).Price; 
+        }
         public static string toStringObject<T>(IEnumerable<T> objs)
         {
             string s = "";

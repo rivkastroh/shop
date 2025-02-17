@@ -11,12 +11,22 @@ namespace BIImplementation
             order.Products.Add(productOrder);
         }
 
+        public BO.ProductOrder isExixt(Order order, int barcode)
+        {
+            foreach(BO.ProductOrder p in order.Products)
+            {
+                if(p.Barcode == barcode)
+                    return p;
+            }
+            return null;
+        }
+
         public double orderTermination(Order order)
         {
             double sum = 0;
             foreach (ProductOrder p in order.Products)
             {
-                sum += BO.Tools.priceProduct(p,order.IsClub);
+                sum += BO.Tools.priceProduct(p,order.Customer != null);
             }
             return sum;
         }

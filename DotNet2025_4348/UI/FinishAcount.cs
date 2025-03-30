@@ -18,6 +18,7 @@
             this.FormClosed += new FormClosedEventHandler(Finish_FormClosed);
             double sum = _bi.order.orderTermination(this.order);
             this.sum.Text = $"לתשלום: {sum} ש\"ח";
+            _bi.order.BuyProduct(this.order);
             //תוספת
             //playButton = new Button();
             //playButton.Text = "נגן שיר";

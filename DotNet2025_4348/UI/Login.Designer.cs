@@ -80,7 +80,7 @@
             Controls.Add(cashierLogin);
             Controls.Add(manegerLogin);
             Name = "Login";
-            Text = "Login";
+            Text = "כניסה";
             ResumeLayout(false);
         }
 

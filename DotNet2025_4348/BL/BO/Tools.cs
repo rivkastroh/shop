@@ -6,7 +6,15 @@
         public static string ToStringProperty()
         {
             //יש לממש
+            //לא הבנתי מה צריך להיות כאן
             return null;
+        }
+        public static void BuyProduct(BO.ProductOrder p)
+        {
+            DO.Product product = _dal.Product.Read(p.Barcode);
+            BO.Product product2 = toBOProduct(product);
+            product2.QuantityInStock -= p.Amount;
+            _dal.Product.Update(toDOProduct(product2));
         }
         public static double priceProduct(int barcode)
         {

@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using BO;
+﻿using BO;
 
 namespace UI
 {
@@ -25,7 +16,6 @@ namespace UI
             ShowObj<BO.Sale> showSales = new ShowObj<BO.Sale>(sales);
             showSales.Show();
         }
-
         private void addSale_Click(object sender, EventArgs e)
         {
             addControls();
@@ -40,7 +30,7 @@ namespace UI
                         Id = int.Parse(txtId.Text),
                         Barcode = int.Parse(txtBarcode.Text),
                         AmountGetSale = int.Parse(txtAmountGetSale.Text),
-                        TotalPrice = double.Parse(txtTotalPrice.Text),
+                        TotalPrice = _bi.product.GetProduct(int.Parse(txtBarcode.Text)).Price- double.Parse(txtDiscount.Text),
                         discount = double.Parse(txtDiscount.Text),
                         IntendedAllCustomers = chkIntendedAllCustomers.Checked,
                         StartSale = dtpStartSale.Value,
@@ -56,7 +46,6 @@ namespace UI
                 txtId.Clear();
                 txtBarcode.Clear();
                 txtAmountGetSale.Clear();
-                txtTotalPrice.Clear();
                 txtDiscount.Clear();
                 chkIntendedAllCustomers.Checked = false;
                 dtpStartSale.Value = DateTime.Now; // או תאריך אחר שאתה רוצה לאתחל
@@ -66,7 +55,6 @@ namespace UI
                 this.Controls.Remove(txtId);
                 this.Controls.Remove(txtBarcode);
                 this.Controls.Remove(txtAmountGetSale);
-                this.Controls.Remove(txtTotalPrice);
                 this.Controls.Remove(txtDiscount);
                 this.Controls.Remove(chkIntendedAllCustomers);
                 this.Controls.Remove(dtpStartSale);
@@ -76,7 +64,6 @@ namespace UI
                 this.Controls.Remove(lblId);
                 this.Controls.Remove(lblBarcode);
                 this.Controls.Remove(lblAmountGetSale);
-                this.Controls.Remove(lblTotalPrice);
                 this.Controls.Remove(lblDiscount);
                 this.Controls.Remove(lblIntendedAllCustomers);
                 this.Controls.Remove(lblStartSale);
@@ -84,7 +71,6 @@ namespace UI
             };
             this.Controls.Add(submitButton);
         }
-
         private void updateSale_Click(object sender, EventArgs e)
         {
             addControls();
@@ -99,7 +85,7 @@ namespace UI
                         Id = int.Parse(txtId.Text),
                         Barcode = int.Parse(txtBarcode.Text),
                         AmountGetSale = int.Parse(txtAmountGetSale.Text),
-                        TotalPrice = double.Parse(txtTotalPrice.Text),
+                        TotalPrice = _bi.product.GetProduct(int.Parse(txtBarcode.Text)).Price - double.Parse(txtDiscount.Text),
                         discount = double.Parse(txtDiscount.Text),
                         IntendedAllCustomers = chkIntendedAllCustomers.Checked,
                         StartSale = dtpStartSale.Value,
@@ -115,17 +101,16 @@ namespace UI
                 txtId.Clear();
                 txtBarcode.Clear();
                 txtAmountGetSale.Clear();
-                txtTotalPrice.Clear();
                 txtDiscount.Clear();
                 chkIntendedAllCustomers.Checked = false;
                 dtpStartSale.Value = DateTime.Now; // או תאריך אחר שאתה רוצה לאתחל
                 dtpFinishSale.Value = DateTime.Now; // או תאריך אחר שאתה רוצה לאתחל
-
+                txtId.KeyDown -= txtIdKeyDown;
+                txtId.Leave -= txtIdLeave;
                 // הסרת הפקדים מהמסך
                 this.Controls.Remove(txtId);
                 this.Controls.Remove(txtBarcode);
                 this.Controls.Remove(txtAmountGetSale);
-                this.Controls.Remove(txtTotalPrice);
                 this.Controls.Remove(txtDiscount);
                 this.Controls.Remove(chkIntendedAllCustomers);
                 this.Controls.Remove(dtpStartSale);
@@ -135,25 +120,25 @@ namespace UI
                 this.Controls.Remove(lblId);
                 this.Controls.Remove(lblBarcode);
                 this.Controls.Remove(lblAmountGetSale);
-                this.Controls.Remove(lblTotalPrice);
                 this.Controls.Remove(lblDiscount);
                 this.Controls.Remove(lblIntendedAllCustomers);
                 this.Controls.Remove(lblStartSale);
                 this.Controls.Remove(lblFinishSale);
             };
             this.Controls.Add(submitButton);
-            txtId.KeyDown += (s, e) =>
-            {
-                if (e.KeyCode == Keys.Enter)
-                {
-                    FillInputsFromSale();
-                }
-            };
-
-            txtId.Leave += (s, e) =>
+            txtId.KeyDown += txtIdKeyDown;
+            txtId.Leave += txtIdLeave;
+        }
+        private void txtIdKeyDown(object s, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
             {
                 FillInputsFromSale();
-            };
+            }
+        }
+        private void txtIdLeave(object s, EventArgs e)
+        {
+            FillInputsFromSale();
         }
         private void FillInputsFromSale()
         {
@@ -164,7 +149,6 @@ namespace UI
                 txtId.Text = sale.Id.ToString();
                 txtBarcode.Text = sale.Barcode.ToString();
                 txtAmountGetSale.Text = sale.AmountGetSale.ToString();
-                txtTotalPrice.Text = sale.TotalPrice.ToString("F2"); // אם אתה רוצה עשרוני
                 txtDiscount.Text = sale.discount.ToString("F2");
                 chkIntendedAllCustomers.Checked = sale.IntendedAllCustomers;
                 dtpStartSale.Text = sale.StartSale.ToString("yyyy-MM-dd"); // פורמט תאריך
@@ -175,15 +159,12 @@ namespace UI
                 // טיפול בשגיאות, לדוגמה, אם הקלט לא תקין
                 MessageBox.Show("Error: " + ex.Message);
             }
-
-
         }
         private void addControls()
         {
             this.Controls.Add(lblId);
             this.Controls.Add(lblBarcode);
             this.Controls.Add(lblAmountGetSale);
-            this.Controls.Add(lblTotalPrice);
             this.Controls.Add(lblDiscount);
             this.Controls.Add(lblIntendedAllCustomers);
             this.Controls.Add(lblStartSale);
@@ -191,13 +172,11 @@ namespace UI
             this.Controls.Add(txtId);
             this.Controls.Add(txtBarcode);
             this.Controls.Add(txtAmountGetSale);
-            this.Controls.Add(txtTotalPrice);
             this.Controls.Add(txtDiscount);
             this.Controls.Add(chkIntendedAllCustomers);
             this.Controls.Add(dtpStartSale);
             this.Controls.Add(dtpFinishSale);
         }
-
         private void removeSale_Click(object sender, EventArgs e)
         {
             this.Controls.Add(lblId);

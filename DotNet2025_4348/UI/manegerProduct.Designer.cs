@@ -34,7 +34,7 @@
             seeAllProducts = new Button();
             SuspendLayout();
             //add
-            categoryInput.Items.AddRange(new string[] { "emona","tfila","havatHashem" });
+            categoryInput.Items.AddRange(new string[] { "emona","tfila","havatHashem", "nisayon", "havatYisrahel" });
             // 
             // addProduct
             // 
@@ -86,7 +86,7 @@
             Controls.Add(updateProduct);
             Controls.Add(addProduct);
             Name = "ManegerProduct";
-            Text = "manegerOrderProduct";
+            Text = "ניהול מוצרים";
             ResumeLayout(false);
         }
 

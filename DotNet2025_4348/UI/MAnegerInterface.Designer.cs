@@ -83,7 +83,7 @@
             Controls.Add(manegerOrderProduct);
             Controls.Add(label1);
             Name = "ManegerInterface";
-            Text = "ManegerInterface";
+            Text = "ממשק מנהל";
             ResumeLayout(false);
             PerformLayout();
         }

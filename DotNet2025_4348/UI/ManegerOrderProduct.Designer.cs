@@ -60,7 +60,7 @@
             Controls.Add(addAmount);
             Controls.Add(SeeMissProducts);
             Name = "ManegerOrderProduct";
-            Text = "ManegerOrderProduct";
+            Text = "הזמנת מוצרים";
             ResumeLayout(false);
         }
 

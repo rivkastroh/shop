@@ -73,14 +73,12 @@ namespace UI
             Controls.Add(quantityInput);
             Controls.Add(submitButton);
         }
-
         private void seeAllProducts_Click(object sender, EventArgs e)
         {
             List<Product> products = _bi.product.GetProducts();
             ShowObj<BO.Product> showProd = new ShowObj<BO.Product>(products);
             showProd.Show();
         }
-
         private void removeProduct_Click(object sender, EventArgs e)
         {
             Controls.Add(barcodeLabel);
@@ -136,7 +134,8 @@ namespace UI
                     categoryInput.SelectedIndex = -1; // לא לבחור שום אפשרות
                     priceInput.Text = string.Empty;
                     quantityInput.Text = string.Empty;
-
+                    barcodeInput.KeyDown -= barcodeInputKeyDown;
+                    barcodeInput.Leave -= barcodeInputLeave;
                     // הסרת האינפוטים, הלייבלים וכפתור השליחה מהמסך
                     Controls.Remove(barcodeInput);
                     Controls.Remove(nameInput);
@@ -168,21 +167,22 @@ namespace UI
             Controls.Add(quantityInput);
             Controls.Add(submitButton);
 
-
             //מלא את הערכים של שאר האינפוטים כאשר המשתמש לוחץ על מקש אנטר או יוצא מהאינפוט
-            barcodeInput.KeyDown += (s, e) =>
-            {
-                if (e.KeyCode == Keys.Enter)
-                {
-                    FillInputsFromProduct();
-                }
-            };
+            barcodeInput.KeyDown += barcodeInputKeyDown;
 
-            barcodeInput.Leave += (s, e) =>
+            barcodeInput.Leave += barcodeInputLeave;
+
+        }
+        private void barcodeInputKeyDown(object s,KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
             {
                 FillInputsFromProduct();
-            };
-
+            }
+        }
+        private void barcodeInputLeave(object s,EventArgs e)
+        {
+            FillInputsFromProduct();
         }
         private void FillInputsFromProduct()
         {

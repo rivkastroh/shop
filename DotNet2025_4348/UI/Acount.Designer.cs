@@ -81,7 +81,7 @@
             Controls.Add(inputBarcode);
             Controls.Add(addProd);
             Name = "Acount";
-            Text = "Acount";
+            Text = "חשבון";
             MouseDown += Form1_MouseDown;
             ResumeLayout(false);
             PerformLayout();

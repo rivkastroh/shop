@@ -84,7 +84,7 @@
             Controls.Add(sum);
             Controls.Add(close);
             Name = "FinishAcount";
-            Text = "FinishAcount";
+            Text = "סיום חשבון";
             ResumeLayout(false);
             PerformLayout();
         }

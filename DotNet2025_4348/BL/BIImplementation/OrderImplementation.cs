@@ -11,6 +11,14 @@ namespace BIImplementation
             order.Products.Add(productOrder);
         }
 
+        public void BuyProduct(Order order)
+        {
+            foreach (BO.ProductOrder p in order.Products) 
+            {
+                BO.Tools.BuyProduct(p);
+            }
+        }
+
         public BO.ProductOrder isExixt(Order order, int barcode)
         {
             foreach(BO.ProductOrder p in order.Products)

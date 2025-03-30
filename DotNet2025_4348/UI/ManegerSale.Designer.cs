@@ -36,7 +36,6 @@
             lblId = new Label();
             lblBarcode = new Label();
             lblAmountGetSale = new Label();
-            lblTotalPrice = new Label();
             lblDiscount = new Label();
             lblIntendedAllCustomers = new Label();
             lblStartSale = new Label();
@@ -44,7 +43,6 @@
             txtId = new TextBox();
             txtBarcode = new TextBox();
             txtAmountGetSale = new TextBox();
-            txtTotalPrice = new TextBox();
             txtDiscount = new TextBox();
             chkIntendedAllCustomers = new CheckBox();
             dtpStartSale = new DateTimePicker();
@@ -104,7 +102,6 @@
             lblId = new Label { Text = "ID:", Location = new System.Drawing.Point(10, 200) };
             lblBarcode = new Label { Text = "Barcode:", Location = new System.Drawing.Point(10, 230) };
             lblAmountGetSale = new Label { Text = "Amount Get Sale:", Location = new System.Drawing.Point(10, 260) };
-            lblTotalPrice = new Label { Text = "Total Price:", Location = new System.Drawing.Point(10, 290) };
             lblDiscount = new Label { Text = "Discount:", Location = new System.Drawing.Point(10, 320) };
             lblIntendedAllCustomers = new Label { Text = "Intended All Customers:", Location = new System.Drawing.Point(10, 350) };
             lblStartSale = new Label { Text = "Start Sale:", Location = new System.Drawing.Point(10, 380) };
@@ -114,7 +111,6 @@
             txtId = new TextBox { Location = new System.Drawing.Point(150, 200) };
             txtBarcode = new TextBox { Location = new System.Drawing.Point(150, 230) };
             txtAmountGetSale = new TextBox { Location = new System.Drawing.Point(150, 260) };
-            txtTotalPrice = new TextBox { Location = new System.Drawing.Point(150, 290) };
             txtDiscount = new TextBox { Location = new System.Drawing.Point(150, 320) };
 
             // Initialize checkbox
@@ -136,7 +132,7 @@
             Controls.Add(addSale);
             Controls.Add(label1);
             Name = "ManegerSale";
-            Text = "ManegerSale";
+            Text = "ניהול מבצעים";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -152,7 +148,6 @@
         private Label lblId;
         private Label lblBarcode;
         private Label lblAmountGetSale;
-        private Label lblTotalPrice;
         private Label lblDiscount;
         private Label lblIntendedAllCustomers;
         private Label lblStartSale;
@@ -161,7 +156,6 @@
         private TextBox txtId;
         private TextBox txtBarcode;
         private TextBox txtAmountGetSale;
-        private TextBox txtTotalPrice;
         private TextBox txtDiscount;
         private CheckBox chkIntendedAllCustomers;
         private DateTimePicker dtpStartSale;

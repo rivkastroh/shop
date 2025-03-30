@@ -47,7 +47,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(listBoxObj);
             Name = "ShowObj";
-            Text = "ShowObj";
+            Text = "";
             ResumeLayout(false);
             this.Resize += new EventHandler(Form1_Resize);
         }
